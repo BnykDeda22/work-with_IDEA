@@ -12,7 +12,7 @@ public class circle extends figure{
         this.radius = radius;
     }
 
-    circle(String name, double perimeter, double square, double radius) {
+    public circle(String name, double perimeter, double square, double radius) {
         super(name, perimeter, square);
         this.radius=radius;
     }

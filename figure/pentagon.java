@@ -12,7 +12,7 @@ public class pentagon extends figure{
         this.type = type;
     }
 
-    pentagon(String name, String type, double perimeter, double square) {
+    public pentagon(String name, String type, double perimeter, double square) {
         super(name, perimeter, square);
         this.type=type;
     }

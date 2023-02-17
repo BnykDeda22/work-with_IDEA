@@ -6,7 +6,7 @@ public class figure {
     private double perimeter;
     private double square;
 
-    figure(String name, double perimeter, double square){
+    public figure(String name, double perimeter, double square){
         this.name=name;
         this.perimeter=perimeter;
         this.square=square;
